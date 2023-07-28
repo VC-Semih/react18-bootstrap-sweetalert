@@ -1,6 +1,6 @@
 {
   "name": "react18-bootstrap-sweetalert",
-  "version": "5.2.0",
+  "version": "5.2.1",
   "description": "A variant of sweetalert for use with React18 and Bootstrap",
   "main": "dist/index.js",
   "scripts": {

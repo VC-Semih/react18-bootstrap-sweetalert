@@ -1,4 +1,8 @@
-# react-bootstrap-sweetalert
+# react18-bootstrap-sweetalert
+
+Disclaimer: I am not the original maintainer of this project, I simply did adapt it for react18 and published it on npm. The original project is unmaintained 
+
+Here is the rest of the original readme:
 
 [![NPM version](http://img.shields.io/npm/v/react-bootstrap-sweetalert.svg)](https://www.npmjs.com/package/react-bootstrap-sweetalert)
 [![Downloads](https://img.shields.io/npm/dm/react-bootstrap-sweetalert.svg)](https://www.npmjs.com/package/react-bootstrap-sweetalert)
@@ -38,23 +42,23 @@ See the demo with examples of common use cases and a live editor.
 
 ### Installation
 ```
-$ npm i react-bootstrap-sweetalert
+$ npm i react18-bootstrap-sweetalert
 ```
 
 > or 
 
 ```
-$ yarn add react-bootstrap-sweetalert
+$ yarn add react18-bootstrap-sweetalert
 ```
 
 ### Import
 ```
-const SweetAlert = require('react-bootstrap-sweetalert');
+const SweetAlert = require('react18-bootstrap-sweetalert');
 ```
 > or 
 
 ```
-import SweetAlert from 'react-bootstrap-sweetalert';
+import SweetAlert from 'react18-bootstrap-sweetalert';
 ```
 
 ----
