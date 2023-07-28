@@ -1,7 +1,7 @@
 {
-  "name": "react-bootstrap-sweetalert",
+  "name": "react18-bootstrap-sweetalert",
   "version": "5.2.0",
-  "description": "A variant of sweetalert for use with React and Bootstrap",
+  "description": "A variant of sweetalert for use with React18 and Bootstrap",
   "main": "dist/index.js",
   "scripts": {
     "preversion": "yarn build",
@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://djorg83@github.com/djorg83/react-bootstrap-sweetalert.git"
+    "url": "git+https://github.com/VC-Semih/react18-bootstrap-sweetalert"
   },
   "keywords": [
     "react",
