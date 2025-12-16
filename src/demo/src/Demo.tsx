@@ -31,6 +31,7 @@ const defaultTextAreaValue: string = `
   success
   title="Woot!"
   onConfirm={this.hideAlert}
+  confirmBtnId={"test"}
 >
   I did it!
 </SweetAlert>

@@ -131,6 +131,7 @@ export default class Buttons extends React.Component<SweetAlertProps> {
      */
     return (
       <a
+        id={this.props.confirmBtnId}
         ref={this.setConfirmButtonElementRef}
         href={'#'}
         style={confirmButtonStyle}
@@ -166,6 +167,7 @@ export default class Buttons extends React.Component<SweetAlertProps> {
      */
     return (
       <a
+        id={this.props.cancelBtnId}
         ref={this.setCancelButtonElementRef}
         href={'#'}
         style={cancelButtonStyle}

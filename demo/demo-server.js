@@ -15,4 +15,4 @@ app.get('/js/demo.bundle.js', (req, res) => {
 	res.sendFile(path.join(__dirname + '/demo.bundle.js'));
 });
 
-app.listen(3000, () => console.log(`Demo running on: http://localhost:3000`));
+app.listen(3001, () => console.log(`Demo running on: http://localhost:3001`));

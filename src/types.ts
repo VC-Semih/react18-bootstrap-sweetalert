@@ -63,9 +63,11 @@ export interface SweetAlertOptionalProps extends SweetAlertOptionalPropsWithDefa
   onCancel?: () => any;
   confirmBtnText?: React.ReactNode|string;
   confirmBtnCssClass?: string;
+  confirmBtnId?: string
   confirmBtnStyle?: CSSProperties;
   cancelBtnText?: React.ReactNode|string;
   cancelBtnCssClass?: string;
+  cancelBtnId?: string
   cancelBtnStyle?: CSSProperties;
   btnSize?: string;
   customIcon?: React.ReactNode|string;
@@ -79,7 +81,7 @@ export interface SweetAlertOptionalProps extends SweetAlertOptionalPropsWithDefa
 export interface SweetAlertProps extends SweetAlertOptionalProps {
   title: React.ReactNode|string;
   onConfirm: (response?: any) => any;
-  children: React.ReactNode | string;
+  children?: React.ReactNode;
 }
 
 export type SweetAlertPropsTypes = { [key in keyof SweetAlertProps]: any };
