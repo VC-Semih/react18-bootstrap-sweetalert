@@ -1,15 +1,22 @@
 {
   "name": "react18-bootstrap-sweetalert",
-  "version": "5.2.3",
+  "version": "5.2.4",
   "description": "A variant of sweetalert for use with React18 and Bootstrap",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "scripts": {
     "preversion": "yarn build",
     "postversion": "git push && git push --tags && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "tslint -c tslint.json 'src/**/*.ts' --fix",
     "build": "yarn lint && rm -rf ./dist && tsc --declaration && yarn inject-css",
-    "build-demo": "cd ./src/demo && NODE_ENV=development webpack",
+    "build-demo": "cd ./src/demo && NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=development webpack",
     "start-demo": "NODE_ENV=development node ./demo/demo-server.js",
     "demo": "yarn build-demo && yarn start-demo && yarn open",
     "inject-css": "gulp copy-css && gulp inject-css",
